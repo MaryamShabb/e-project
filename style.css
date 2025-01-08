@@ -1,0 +1,343 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    transition: all 0.3s ease;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 250px;
+    padding: 10px 14px;
+    background: #242526;
+    transition: all 0.3s ease;
+    z-index: 100;
+}
+
+.sidebar.close {
+    width: 90px;
+}
+
+header {
+    height: 100px;
+    margin-top: 5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header img {
+    width: 80px;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease;
+}
+
+.sidebar.close img {
+    width: 30px;
+}
+
+.sidebar .toggle {
+    position: absolute;
+    top: 5%;
+    right: 30px;
+    height: 25px;
+    width: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 26px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    color: #fff;
+}
+
+
+.menu li {
+    height: 50px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-left: -40px;
+    margin-top: 10px;
+}
+
+.menu li i {
+    min-width: 60px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    transition: all 0.3s ease;
+    color: #ccc;
+}
+
+li span {
+    font-size: 16px;
+    font-weight: 500;
+    white-space: nowrap;
+    opacity: 1;
+    transition: .3s;
+    color: #ccc;
+}
+
+.sidebar.close .text {
+    opacity: 0;
+}
+
+.sidebar .menu {
+    margin-top: 20px;
+}
+
+li.search-box {
+    border-radius: 6px;
+    background-color: #3a3b3c;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+li.search-box input {
+    height: 100%;
+    width: 100%;
+    outline: none;
+    border: none;
+    background-color: #3a3b3c;
+    color: #ccc;
+    border-radius: 6px;
+    font-size: 17px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    margin-left: 18px;
+}
+
+li a {
+    list-style: none;
+    height: 100%;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+li a:hover {
+    background-color: #fff;
+}
+
+li a:hover .icon,
+li a:hover .text {
+    color: #242526;
+}
+
+.text {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+/* card */
+
+.Healthy {
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.Healthy h5 {
+    text-align: center;
+    color: black;
+}
+
+.Healthy p {
+    text-align: center;
+    color: grey;
+    margin-left: 35px;
+
+}
+
+.Healthy img {
+    margin-left: 100px;
+    margin-bottom: 20px;
+}
+
+.row1 {
+    margin-top: 35px;
+}
+
+.imgdown {
+    margin-top: 20px;
+}
+
+.heading {
+    text-align: center;
+    margin-top: 35px;
+}
+
+.juices p {
+    text-align: center;
+    margin-left: 100px;
+}
+
+.juices img {
+    margin-left: 70px;
+}
+
+.juices h4 {
+    text-align: center;
+    margin-left: 80px;
+}
+
+.cont {
+    margin-top: 40px;
+}
+
+.cont2 {
+    margin-top: 70px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.textarea {
+    background-color: rgb(158, 209, 209);
+    text-align: center;
+    color: rgb(106, 14, 101);
+    height: 350px;
+
+}
+
+.textarea p {
+    transform: translateY(120px) translateX(20px);
+    text-align: center;
+}
+
+.cont2 h1 {
+    margin-bottom: 30px;
+    color: black;
+}
+
+.circle {
+    width: 180px;
+    height: 180px;
+    border-radius: 90px;
+   margin-top: 45px;
+   margin-left: -10px;
+    transform: translateY(-290px) translateX(270px);
+}
+
+.circle img {
+    width: 180px;
+    height: 180px;
+    border-radius: 90px;
+    margin: 45px;
+    transform: translateY(-45px) translateX(-57px);
+}
+
+.arsala {
+    margin-top: -200px;
+}
+
+.arsala button {
+    margin-left: 150px;
+}
+
+.sidra h1 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.sidra p {
+    text-align: center;
+}
+
+.award img {
+    margin-left: 150px;
+}
+
+.award {
+    margin-top: 50px;
+}
+.video{
+    margin-top: 40px;
+}
+.foot1 img{
+  width: 120px;
+  margin-left: 140px;
+  }
+  
+.footer{
+    background-color: rgb(179, 230, 244);
+    height: 350px;
+    margin-top: 40px;
+}
+.foot{
+    margin-top: 70px;
+}
+.foot img{
+   margin-top: 10px;
+}
+.foot1 p{
+    margin-left: 100px;
+}
+
+/* about page css start*/
+
+/* center picture */
+.center{
+    padding-left: 90px;
+}
+.picture{
+    margin-top: 50px;
+}
+ /* divide 6 to 6 */
+ .freash h1{
+    padding-left:90px ;
+ }
+ .freash p{
+    margin-left: 80px;
+    padding: 10px;
+ }
+ .freash button{
+    margin-left:400px;
+ }
+ .iqra{
+    margin-top: 90px;
+ }
+ .fatima{
+    margin-top: 40px;
+ }
+ .foot3{
+    padding-top: 50px;
+ }
+ .gallary{
+    text-align: center;
+    
+}
+.div10{
+    width: 50%;
+    
+    transform: translateY(-420px)translateX(370PX);
+    background-color: #fff;
+    text-align: center;
+    padding: 10PX;
+}
+.khizar{
+    margin-top: -100px;
+}
+.contact{
+    margin-top: 40px;
+    
+}
+
+
