@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
+body p:hover{
+   color: rgb(235, 8, 46);
+}
 * {
     margin: 0;
     padding: 0;
@@ -339,5 +342,115 @@ li a:hover .text {
     margin-top: 40px;
     
 }
+.faq{
+    margin-top: -250px;
+}
+.suitable{
+    padding: 20px;
+}
+.DIVBAR{
+    width: 50%;
+    
+    transform: translateY(-420px)translateX(130PX);
+    background-color:transparent;
+    text-align: left;
+    padding: 10PX;
+}
+.DIVBAR i{
+    margin-left: 100px;
+    font-size: 80px;
+}
+.DIVBAR img{
+    width: 100px;
+    margin-top: -300px;
+}
+.DIVBAR button{
+    padding-left: 10px;
+    margin-left: 80px;
+    margin-top: -60px;
+
+}
+.bushra{
+    margin-top: 30px;
+}
+.bisma{
+    padding-top: 50px;
+}
+
+.shop{
+    margin-top: 50px;
+}
+.hero p{
+    text-align: center;
+    font-weight: bold;
+}
+.hero a{
+    text-decoration: none;
+    color: rgb(227, 126, 49);
+}
+.fork{
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.hunza{
+    margin-top: 20PX;
+}
+.izma{
+    margin-top: 80px;
+}
+.pappy{
+    margin-top: 30px;
+}
+.blog{
+    margin-top: 30px;
+}
+.khansa button{
+  margin-top: 20px;
+  }
+  .zobi p {
+   text-align: center;
+  }
+  .zobi h5{
+    text-align: center;
+}
+.iz img{
+    border-radius: 45px;
+}
+
+.az img{
+    border-radius: 45px;
+    margin-left: 85px;
+}
+.iz{
+    margin-left: -15px;
+}
+
+.zz img{
+    border-radius: 45px;
+}
+
+.zz{
+    margin-left: 60px;
+}
+.ifra{
+    margin-top: 30px;
+}
+.kol{
+    text-align: center;
+    
+    
+}
+.kol button{
+    margin-left: 20px;
+}
+.kolf
+{
+    margin-top: 60px;
+}
+
+
+
+
+
 
 
