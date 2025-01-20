@@ -178,6 +178,7 @@ li a:hover .text {
 
 .row1 {
     margin-top: 35px;
+
 }
 
 .imgdown {
@@ -234,21 +235,20 @@ li a:hover .text {
     width: 180px;
     height: 180px;
     border-radius: 90px;
-   margin-top: 45px;
-   margin-left: -10px;
-    transform: translateY(-290px) translateX(270px);
+   position: relative;
 }
 
 .circle img {
     width: 180px;
     height: 180px;
     border-radius: 90px;
-    margin: 45px;
-    transform: translateY(-45px) translateX(-57px);
+    position: absolute;
+    bottom: 200px;
+    left: 310px;
 }
 
 .arsala {
-    margin-top: -200px;
+    margin-top: -150px;
 }
 
 .arsala button {
@@ -447,6 +447,58 @@ li a:hover .text {
 {
     margin-top: 60px;
 }
+.noor img:hover{
+    filter:grayscale(100%);
+}
+filter img{
+    filter: grayscale(100%);
+}
+/* FORM */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+.form-container {
+    width: 50%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+h2 {
+    text-align: center;
+    color: #333;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+.form-group label {
+    font-size: 16px;
+    color: #555;
+}
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.form-group input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.form-group input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+
+
 
 
 
